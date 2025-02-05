@@ -10,13 +10,11 @@ export function FloatedSearch() {
 
         <Transition className="absolute bottom-10 md:-bottom-10 left-0 right-0 w-[75%] mx-auto">
 
-            <div className="flex flex-col justify-between gap-4 py-4 bg-white rounded-md md:flex rounded-md md:flex-row backdrop-blur shadow-light">
+            <div className="flex  flex-col justify-between gap-4 py-4 px-3 bg-white rounded-md md:flex rounded-md md:flex-row backdrop-blur shadow-light font-sans">
                 <SearchLocation />
                 <SearchProperty />
                 <SearchPriceRange />
                 <SearchButton />
-
-
             </div>
         
         </Transition>
