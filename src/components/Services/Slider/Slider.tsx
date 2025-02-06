@@ -22,7 +22,7 @@ export function Slider() {
             >
                 { sliderDataImages.map(({id, urlImage}) => (
                     <SwiperSlide key={id}>
-                        <div className="relative w-[120px] md:w-auto w-full h-[180px] md:h-[280px]">
+                        <div className="relative w-[120px] md:w-auto h-[180px] md:h-[280px]">
                             <Image 
                                 src={`/assets/houses/${urlImage}`} 
                                 alt="House" 
