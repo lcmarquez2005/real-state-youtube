@@ -11,7 +11,7 @@ export function About() {
                 <button className="px-4 py-3 text-white transition-all duration-200 rounded-lg bg-secondary hover:bg-black">Cargar más</button>
             </div>
             <div className="flex items-center justify-center">
-                <Image src="/assets/house.jpeg" alt="About" width={350} height={450} className="w-auto h-auto" priority />
+                <Image src="/assets/house.jpeg" alt="About" width={350} height={450} className="mx-auto h-auto" priority />
             </div>
         </Transition>
     )
