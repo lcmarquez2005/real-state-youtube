@@ -3,6 +3,7 @@ import { PropertyProps } from "./Property.types";
 import { LiaBathSolid, LiaBedSolid, LiaRulerCombinedSolid, LiaStarSolid } from "react-icons/lia";
 import { TfiLocationPin} from "react-icons/tfi";
 import Image from "next/image";
+import { Form } from "../Form";
 
 
 export function Property(props: PropertyProps) {
@@ -50,6 +51,7 @@ export function Property(props: PropertyProps) {
                     </div>
                     <div className="my-3">{house.description}</div>
                 </div>
+                <Form />
             </div>
         </main>
     )
