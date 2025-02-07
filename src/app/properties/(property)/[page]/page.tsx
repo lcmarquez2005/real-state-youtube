@@ -1,6 +1,7 @@
 'use client'
 
 import { Error404 } from "@/components/Error404";
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { dataProperties } from "@/components/Properties/Properties.data";
 import { Property } from "@/components/Property";
@@ -23,6 +24,8 @@ export default function Page() {
             ) : (
                 <Error404 />
             )}
+
+            <Footer/>
         </>
     )
 }
