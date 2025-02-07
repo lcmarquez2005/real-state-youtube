@@ -25,7 +25,7 @@ export default function Home() {
       <main>
         <Banner />
         <Properties />
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl">
           <Services />
           <LocationMap />
           <About />
